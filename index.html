@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- ===========================NAV-BAR=================== -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu"></i>
+        <nav class="navbar">
+            <a href="#home" style="--clr:1" class="active">Home</a>
+            <a href="#about" style="--clr:2">About</a>
+            <a href="#skills" style="--clr:3">Skills</a>
+            <a href="#portfolio" style="--clr:4">Projects</a>
+        </nav>
+    </header>
+
+    <!-- ===========================HOME-SECTION=================== -->
+
+    <section class="home" id="home">
+        <div class="home-detail">
+            <h3>Hello It's Me</h3>
+            <h1>Ayush Jha</h1>
+            <h3>and I'm a <span class="textline"></span></h3>
+            <p>as a coder, exploring the endless abyss of ones and zeroes !</p>
+            <div class="social-media">
+                <a target="_blank" onclick="goTo('https://www.instagram.com/itsmeoberoy/', 360)">
+                    <i class="bx bxl-instagram"></i></a>
+                <a target="_blank" onclick="goTo('https://github.com/JHA-geek-AYUSH', 360)">
+                    <i class="bx bxl-github"></i></a>
+                <a target="_blank" onclick="goTo('https://www.snapchat.com/add/itsmeoberoy', 360)">
+                    <i class="bx bxl-snapchat"></i></a>
+            </div>
+
+            <!-- <button class="btn">Download CV</button> -->
+
+        </div>
+        <div class="home-img">
+            <img src="imagedone.png" alt="">
+        </div>
+    </section>
+
+    <!-- ===========================ABOUT-SECTION=================== -->
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="imagedone.png" alt="" srcset="">
+        </div>
+        <div class="about-section">
+            <h2 class="allheading">Howdy <span>Geeks!
+                </span></h2>
+            <p style="color:rgb(255, 255, 255)" class="info">This is <span style="color:rgb(238,131,25)">Ayush
+                    Jha </span> here, presently persuing my studies in 12th grade.
+                With a strong inclination towards <span style="color:rgb(238,131,25)">Maths</span>, <span
+                    style="color:rgb(238, 131, 25)">Physics </span> and <span style="color:rgb(238,131,25)">Chemistry
+                </span>
+                I have developed a profound passion for <span style="color:rgb(238,131,25)">coding </span>
+                which adds an enriching dimension to my academic pursuits. I am deeply committed to the continual
+                advancement of my coding skills
+                and to this end I have applied myself diligently to several fields including
+                <span style="color:rgb(238,131,25)">Android Development</span> , <span
+                    style="color:rgb(238,131,25)">Custom ROMs</span> ,
+                <span style="color:rgb(238,131,25)"> Adobe AE </span>, and <span style="color:rgb(238, 131, 25)">Unity
+                    3D</span>.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- ===========================skills-SECTION=================== -->
+
+    <section class="skills" id="skills">
+        <h2 class="allheading" data-aos="fade-down" data-aos-duration="1100" >My <span>Skills</span></h2>
+        <div class="skills-section">
+
+            <div class="skills-box" data-aos="flip-right" data-aos-duration="1800">
+
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>
+                <ul>
+                    <li class='bx bxl-html5'>HTML</li>
+                    <li class='bx bxl-css3'>CSS</li>
+                    <li class='bx bxl-javascript'>Js</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="skills-box" data-aos="flip-left" data-aos-duration="1800">
+                <i class='bx bxl-tux'></i>
+                <h3>VMs</h3>
+                <p>
+                <ul>
+                    <li class='bx bxl-html5'>Kali-Linux</li>
+                    <li class='bx bxl-css3'>Ubuntu</li>
+                    <li class='bx bxl-javascript'>Unix</li>
+                </ul>
+                </p>
+
+            </div>
+
+            <div class="skills-box" data-aos="flip-right" data-aos-duration="1800">
+                <i class='bx bxl-android'></i>
+                <h3>Android Studio</h3>
+                <p>
+                <ul>
+                    <li class='bx bx-bug'>Gradle Building</li>
+                    <li class='bx bxl-javascript'>JavaScript</li>
+                    <li class='bx bxl-css3'>XML</li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================================PORTFOLIO-SECTION============================================================= -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h2 class="allheading" data-aos="fade-down" data-aos-duration="1100">My <span>Projects</span></h2>
+
+        <div class="portfolio-section">
+            
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-duration="1500">
+               <h1>1</h1>
+                <img src="image3.jpg" alt=""> 
+                
+                <div class="portfolio-head">
+                    
+                    <h4>Web Connectivity</h4>
+                    <p>A simple integrated tool to check the connectivity of a particular website.</p>
+                    <a href="https://github.com/jha-ayush-07/Website_Connectivity_Checker"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>2</h1>
+                <img src="image3.jpg" alt="">
+                <div class="portfolio-head">
+                    <h4>Ig Downloader</h4>
+                    <p>An elementry python tool to play with instagram settings.</p>
+                    <a href="https://github.com/jha-ayush-07/ig_downloader"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>3</h1>
+                <img src="image3.jpg" alt="">
+                <div class="portfolio-head">
+                    <h4>Web Limiter</h4>
+                    <p>A tool to monitor, analyze and limit the bandwidth.</p>
+                    <a href="https://github.com/jha-ayush-07/Web_Limiter"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>4</h1>
+                <img src="image3.jpg" alt="">
+                <div class="portfolio-head">
+                    <h4>Audio Book</h4>
+                    <p>Real-time text-to-speech output.</p>
+                    <a href="https://github.com/jha-ayush-07/Audio-Book" ><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>5</h1>
+                <img src="image3.jpg" alt="">
+                <div class="portfolio-head">
+                    <h4>My Portfolio</h4>
+                    <p>My portfolio website.</p>
+                    <a href="https://github.com/JHA-geek-AYUSH"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-duration="1500">
+                <h1>6</h1>
+                <img src="image3.jpg" alt="">
+                <div class="portfolio-head">
+                    <h4>Drink Water Reminder</h4>
+                    <p>A Drink Water Notification Reminder.</p>
+                    <a href="https://github.com/jha-ayush-07/Drink_Water_Reminder"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- ========================================================FOOTER-SECTION============================================================= -->
+
+    <footer class="footer">
+        <div class="text">
+            <p style="color: rgb(255, 255, 255)">Scripted by
+                <span style="color:rgb(255, 164, 67)"> Ayush Jha </span>@2023
+            </p>
+        </div>
+        <div class="footerup">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+
+
+ 
+
+    <!-- =======================ON CLICK DELAY================= -->
+    <script>
+        function goTo(link, time) {
+            setTimeout(function () {
+                window.open(link, '_blank');
+            }, time);
+        }
+    </script>
+
+    <!-- ============================JS========================== -->
+    
+     <!-- ====================AOS============================== -->
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
