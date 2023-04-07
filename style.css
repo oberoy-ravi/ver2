@@ -355,6 +355,8 @@ span {
 
 .skills-section .skills-box {
   flex: 1 1 30rem;
+  max-width:50%
+
   padding: 3rem 2rem 3rem;
   border-radius: 2rem;
   background: linear-gradient(
