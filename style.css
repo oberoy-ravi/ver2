@@ -447,11 +447,12 @@ span {
 
 .portfolio-box img {
   position: relative;
-  width: 100%;
+  width: 100vw;
   transition: 0.5s ease;
   opacity: 0.5;
   scale: 1.5;
   overflow: hidden;
+  
 }
 
 .portfolio-box h1 {
